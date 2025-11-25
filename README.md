@@ -15,10 +15,7 @@ Generating summary statistics for downstream analysis
 
 
 
-The analyses evaluate whether DNA methylation levels across the genome are associated with:
-CTE case status
-Duration of contact sports participation
-Other relevant covariates and neuropathologic markers (depending on script)
+The analyses evaluate whether DNA methylation levels across the genome are associated with CTE related traits. 
 Methylation data consist of smoothed methylation proportions (per CpG, per sample) derived from whole-genome bisulfite sequencing.
 Each chromosome-specific methylation matrix is processed separately and combined downstream.
 
@@ -32,7 +29,7 @@ Aligns subjects between phenotype and methylation matrices
 
 Running the Script
 Command-line usage
-Rscript run_cte_methy_glm.R <chr>
+Rscript Perform_association_test.R <chr>
 
 
 Example (for chromosome 1):
