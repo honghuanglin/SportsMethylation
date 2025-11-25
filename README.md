@@ -37,7 +37,7 @@ Rscript run_cte_methy_glm.R <chr>
 
 Example (for chromosome 1):
 
-Rscript run_cte_methy_glm.R 1
+Rscript Perform_association_test.R 1
 
 Input directory structure
 ../Phenotype_CTE.txt
